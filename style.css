@@ -1,0 +1,78 @@
+/* Class for outlining elements for troubleshooting */
+.outline {
+    border:2px solid black;
+}
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 20% 20% auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    /* Comment out border after testing */
+    border: 3px solid black;
+    padding: 15px;
+}
+
+.grid-title {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 5px;
+}
+
+.grid-side {
+    grid-row-start: 2;
+    grid-row-end: 9;
+}
+
+.grid-paragraph {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+.grid-answer1 {
+    grid-column-start: 3;
+    grid-column-end: auto;
+    grid-row-start: 7;
+    grid-row-end: auto;
+}
+
+.grid-answer2 {
+    grid-column-start: 4;
+    grid-column-end: auto;
+    grid-row-start: 7;
+    grid-row-end: auto;
+}
+
+.grid-answer3 {
+    grid-column-start: 3;
+    grid-column-end: auto;
+    grid-row-start: 8;
+    grid-row-end: auto;
+}
+
+.grid-answer4 {
+    grid-column-start: 4;
+    grid-column-end: auto;
+    grid-row-start: 8;
+    grid-row-end: auto;
+}
+
+.grid-hidden {
+    display: none;
+}
+
+#test {
+    white-space: pre-wrap;
+    overflow-wrap: normal;
+    font-size: 22pt;
+}
