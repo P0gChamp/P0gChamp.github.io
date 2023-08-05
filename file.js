@@ -119,68 +119,10 @@ issue.addIssue("Alexanca is locked out of her account and she cannot work due to
 issue.addIssue("My work laptop is not allowing me to broadcast sound. It only displays the muted icon in the corner of the screen and whenever I try to unmute it pops up an admin password request");
 issue.addIssue('*Zubikey not working. Showing "Authentication failed" After every login attempt. NO LOCAL IT on site to support.');
 issue.addIssue("Time clock Issue Description: Wi-Fi not connected in Ipad and time clock is offline. ");
-/* 
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");
-issue.addIssue("");  
-*/
 
 console.log(issue.data); // Output: ["Variable 1", "Variable 2"]
 
 const randomID = getRandomIssue(issue);
-console.log(randomID);
 
 function getRandomIssue(issueList) {
   const randomIndex = Math.floor(Math.random() * issueList.data.length);
@@ -252,45 +194,6 @@ locations.addLocation("dock door 135");
 locations.addLocation("N/A");
 locations.addLocation("shipdoc");
 locations.addLocation("Ship sorter lane 15");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-/*
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-locations.addLocation("");
-*/
 
 console.log(locations.data); // Output: ["Variable 1", "Variable 2"]
 
